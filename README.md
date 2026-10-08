@@ -13,12 +13,10 @@ Text-driven video generation has democratized film creation, but camera control 
 If you find this work useful, please consider citing:
 
 ```bibtex
-@misc{yang2026shotverseadvancingcinematiccamera,
-      title={ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation}, 
-      author={Songlin Yang and Zhe Wang and Xuyi Yang and Songchun Zhang and Xianghao Kong and Taiyi Wu and Xiaotong Zhao and Ran Zhang and Alan Zhao and Anyi Rao},
-      year={2026},
-      eprint={2603.11421},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.11421}, 
+@inproceedings{shotverse,
+  title={ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation},
+  author={Songlin Yang and Zhe Wang and Xuyi Yang and Songchun Zhang and Xianghao Kong and Taiyi Wu and Xiaotong Zhao and Ran Zhang and Alan Zhao and Anyi Rao},
+  booktitle={Proceedings of the SIGGRAPH Asia 2026 Conference Papers},
+  pages={1--11},
+  year={2026}
 }
