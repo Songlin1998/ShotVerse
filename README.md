@@ -1,4 +1,4 @@
-# ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation
+# [SIGGRAPH Asia 2026] ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation
 
 <p align="center">
 <img src="teaser-new.png" width="90%">
@@ -8,14 +8,7 @@ Text-driven video generation has democratized film creation, but camera control 
 
 **Paper:** [https://arxiv.org/abs/2603.11421](https://arxiv.org/abs/2603.11421)
 
-## 🚧 Code Release Plan
 
-Code will be released after paper acceptance.
-
-- [ ] Pre-trained models
-- [ ] Inference code
-- [ ] Dataset
-- [ ] Training code
 
 If you find this work useful, please consider citing:
 
