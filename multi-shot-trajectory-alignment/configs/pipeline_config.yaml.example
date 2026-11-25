@@ -1,0 +1,34 @@
+# ================================================================
+# Multi-Shot Trajectory Alignment - Pipeline Config
+# Edit paths below before running.
+# ================================================================
+
+environments:
+  sam2: "gd-sam2"
+  pi3: "pi3"
+
+paths:
+  sam2_repo: "./external/Grounded-SAM-2"
+  sam2_checkpoint: "./external/Grounded-SAM-2/checkpoints/sam2.1_hiera_large.pt"
+  input_root: "./data/input_scenes"
+  output_root: "./data/output_scenes"
+
+sam2:
+  model_config: "configs/sam2.1/sam2.1_hiera_l"
+  grounding_model: "IDEA-Research/grounding-dino-tiny"
+  text_prompt: "person."
+
+pi3:
+  conf_threshold: 0.1
+  checkpoint: ""
+
+sampling:
+  num_frames: 5
+  skip_first_frames: 10
+
+gpu:
+  device: "cuda"
+  cuda_visible_devices: "0"
+
+runtime:
+  force_rerun: false

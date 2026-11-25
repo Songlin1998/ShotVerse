@@ -10,6 +10,10 @@ Text-driven video generation has democratized film creation, but camera control 
 
 
 
+## Code
+
+[Multi-shot trajectory alignment](multi-shot-trajectory-alignment/README.md) contains the camera calibration pipeline, installation instructions, and upstream acknowledgements.
+
 If you find this work useful, please consider citing:
 
 ```bibtex
