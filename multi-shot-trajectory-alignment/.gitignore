@@ -1,0 +1,6 @@
+/configs/pipeline_config.yaml
+/data/
+/external/
+__pycache__/
+*.pyc
+.DS_Store
